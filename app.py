@@ -6,7 +6,7 @@ def hello_barbie():
     return render_template ("index.html")
 
 @app.route('/reels')
-def hola-que-tal(): 
+def hola_que_tal():
         name = request.args.get("username")
         lastname = request.args.get("lastname")
 
