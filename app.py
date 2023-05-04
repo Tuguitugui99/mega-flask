@@ -5,9 +5,9 @@ app = Flask(__name__)
 def hello_barbie():
     return render_template ("index.html")
 
-@app.route('/')
+@app.route('/reels')
 def hola-que-tal(): 
         name = request.args.get("username")
         lastname = request.args.get("lastname")
 
-return render_template ("/reels.html",name=name,lastname=lastname)    
+        return render_template ("/reels.html",name=name,lastname=lastname)    
